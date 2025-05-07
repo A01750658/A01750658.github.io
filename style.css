@@ -1,26 +1,27 @@
 /* General Styles */
 body {
-    font-family: sans-serif; /* Fuente estilo ciencia ficción */
+    font-family: 'Courier New', Courier, monospace; /* Fuente estilo terminal */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #cfd8dc; /* Texto claro */
-    background-color: #121212; /* Fondo oscuro */
+    color: #00ff00; /* Texto verde brillante */
+    background-color: #001a00; /* Fondo verde oscuro */
 }
 
 /* Header */
 header {
-    background: #1a237e; /* Azul oscuro */
-    color: #bbdefb; /* Azul claro */
+    background: #003300; /* Verde oscuro */
+    color: #00ff00; /* Verde brillante */
     padding: 1.5rem 0;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #00ff00;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 header nav ul {
@@ -33,14 +34,14 @@ header nav ul {
 }
 
 header nav ul li a {
-    color: #bbdefb;
+    color: #00ff00;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s, transform 0.3s;
 }
 
 header nav ul li a:hover {
-    color: #82b1ff; /* Azul más claro */
+    color: #00cc00; /* Verde más oscuro */
     transform: scale(1.1);
 }
 
@@ -49,13 +50,14 @@ section {
     padding: 2rem;
     margin: 1.5rem auto;
     max-width: 900px;
-    background: #1c1c1c; /* Fondo oscuro para secciones */
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background: #002200; /* Fondo verde oscuro */
+    border: 2px solid #00ff00; /* Borde verde brillante */
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00ff00; /* Brillo verde */
 }
 
 section h2 {
-    color: #82b1ff;
+    color: #00ff00;
     margin-bottom: 1rem;
     text-align: center;
     text-transform: uppercase;
@@ -66,20 +68,20 @@ section h2 {
 .project {
     margin-bottom: 1.5rem;
     padding: 1rem;
-    border: 1px solid #3949ab; /* Azul oscuro */
-    border-radius: 8px;
-    background: #212121; /* Fondo más oscuro */
+    border: 1px solid #00cc00; /* Verde oscuro */
+    border-radius: 5px;
+    background: #001a00; /* Fondo más oscuro */
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .project:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 15px #00ff00; /* Brillo verde al pasar el mouse */
 }
 
 .project h3 {
     margin: 0 0 0.5rem;
-    color: #bbdefb;
+    color: #00ff00;
 }
 
 /* Skills */
@@ -93,10 +95,10 @@ section h2 {
 }
 
 #skills ul li {
-    background: #3949ab; /* Azul oscuro */
-    color: #e3f2fd; /* Azul claro */
+    background: #003300; /* Verde oscuro */
+    color: #00ff00; /* Verde brillante */
     padding: 0.5rem 1rem;
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -104,6 +106,18 @@ section h2 {
 }
 
 #skills ul li:hover {
-    background: #5c6bc0; /* Azul más claro */
+    background: #004d00; /* Verde más claro */
     transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #003300;
+    color: #00ff00;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    border-top: 2px solid #00ff00;
 }
