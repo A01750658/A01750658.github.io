@@ -4,17 +4,17 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #66ff66; /* Verde más suave */
-    background-color: #001000; /* Fondo más oscuro */
+    color: #80d4ff; /* Azul claro */
+    background-color: #001a33; /* Fondo azul marino */
 }
 
 /* Header */
 header {
-    background: #002200; /* Verde oscuro */
-    color: #66ff66; /* Verde más suave */
+    background: #00264d; /* Azul oscuro */
+    color: #80d4ff; /* Azul claro */
     padding: 1.5rem 0;
     text-align: center;
-    border-bottom: 2px solid #66ff66;
+    border-bottom: 2px solid #80d4ff;
 }
 
 header h1 {
@@ -34,14 +34,14 @@ header nav ul {
 }
 
 header nav ul li a {
-    color: #66ff66;
+    color: #80d4ff;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s, transform 0.3s;
 }
 
 header nav ul li a:hover {
-    color: #55cc55; /* Verde más oscuro */
+    color: #66b3ff; /* Azul más oscuro */
     transform: scale(1.1);
 }
 
@@ -50,14 +50,14 @@ section {
     padding: 2rem;
     margin: 1.5rem auto;
     max-width: 900px;
-    background: #001500; /* Fondo más oscuro */
-    border: 2px solid #66ff66; /* Borde verde más suave */
+    background: #00264d; /* Fondo azul oscuro */
+    border: 2px solid #80d4ff; /* Borde azul claro */
     border-radius: 5px;
-    box-shadow: 0 0 10px #66ff66; /* Brillo verde más suave */
+    box-shadow: 0 0 10px #80d4ff; /* Brillo azul */
 }
 
 section h2 {
-    color: #66ff66;
+    color: #80d4ff;
     margin-bottom: 1rem;
     text-align: center;
     text-transform: uppercase;
@@ -68,20 +68,20 @@ section h2 {
 .project {
     margin-bottom: 1.5rem;
     padding: 1rem;
-    border: 1px solid #55cc55; /* Verde oscuro */
+    border: 1px solid #66b3ff; /* Azul más oscuro */
     border-radius: 5px;
-    background: #001000; /* Fondo más oscuro */
+    background: #001a33; /* Fondo azul marino */
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .project:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 15px #66ff66; /* Brillo verde más suave */
+    box-shadow: 0 0 15px #80d4ff; /* Brillo azul */
 }
 
 .project h3 {
     margin: 0 0 0.5rem;
-    color: #66ff66;
+    color: #80d4ff;
 }
 
 /* Skills */
@@ -95,8 +95,8 @@ section h2 {
 }
 
 #skills ul li {
-    background: #002200; /* Verde oscuro */
-    color: #66ff66; /* Verde más suave */
+    background: #00264d; /* Azul oscuro */
+    color: #80d4ff; /* Azul claro */
     padding: 0.5rem 1rem;
     border-radius: 5px;
     font-size: 0.9rem;
@@ -106,7 +106,7 @@ section h2 {
 }
 
 #skills ul li:hover {
-    background: #003300; /* Verde más claro */
+    background: #003366; /* Azul más claro */
     transform: scale(1.1);
 }
 
@@ -114,10 +114,10 @@ section h2 {
 footer {
     text-align: center;
     padding: 1rem;
-    background: #002200;
-    color: #66ff66;
+    background: #00264d;
+    color: #80d4ff;
     margin-top: 2rem;
     font-size: 0.9rem;
     letter-spacing: 1px;
-    border-top: 2px solid #66ff66;
+    border-top: 2px solid #80d4ff;
 }
